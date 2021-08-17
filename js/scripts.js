@@ -164,6 +164,7 @@ $(document).ready(function () {
 
     if($('.prizes-slider').length && window.innerWidth <= 1000) {
     	$('.prize').unwrap();
+        $('.weekly-title.desktop-visible').remove();
         $('.prizes-slider').slick({
             dots: false,
             arrows: true,

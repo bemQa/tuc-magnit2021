@@ -467,26 +467,26 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 991px;
-    background: url(../img/inner-bg.png) center no-repeat;
-    background-size: cover;
+    background: url(../img/inner-bg.jpg) center 0 no-repeat;
+    background-size: 100% 100%;
 }
 
 .main-page {
     min-height: 3524px;
-    background: url(../img/bg.png) center no-repeat;
+    background: url(../img/bg.jpg) center 0 no-repeat;
     background-size: cover;
 }
 
 .main-page.full {
-    min-height: 3656px;
-    background: url(../img/bg1.png) center no-repeat;
+    min-height: 3760px;
+    background: url(../img/bg1.jpg) center 0 no-repeat;
     background-size: cover;
 }
 
 .cookies-page {
 	min-height: 2643px;
-    background: url(../img/cookies-bg.png) center no-repeat;
-    background-size: cover;
+    background: url(../img/cookies-bg.png) center 0 no-repeat;
+    background-size: 100% 97%;
 }
 
 .content {
@@ -520,32 +520,9 @@ header {
     top: 0;
     right: 0;
     width: 150px;
-    height: 208px;
-    background: url(../img/magnit-bg.svg) center no-repeat;
+    height: 139px;
+    background: url(../img/action.svg) center no-repeat;
     background-size: contain;
-    text-align: center;
-    color: #fff;
-}
-
-.magnit-action-title {
-    font-family: 'Peach Milk 2.0';
-    font-size: 52px;
-    line-height: 48px;
-    letter-spacing: 0.01em;
-    text-transform: uppercase;
-    margin: 26px auto 8px;
-}
-
-.magnit-action-text {
-    font-family: 'Gotham Pro';
-    font-size: 11px;
-    line-height: 12px;
-    text-transform: uppercase;
-}
-
-.magnit-action img {
-    width: 150px;
-    margin: 17px 0;
 }
 
 .menu-links {
@@ -636,7 +613,7 @@ header {
     right: 0;
     width: 300px;
     height: 196px;
-    padding: 26px;
+    padding: 44px 26px;
     text-align: center;
     background: url(../img/tooltip-bg.svg) center no-repeat;
     background-size: contain;
@@ -649,52 +626,30 @@ header {
 }
 
 .tooltip-text {
-    font-size: 19px;
-    line-height: 111%;
+    font-family: 'Peach Milk 2.0';
+    font-size: 34px;
+    line-height: 36px;
     text-align: center;
     color: #004F91;
-    text-shadow: 4px 0px 0px #fff;
+    text-shadow: 4px 0px 0px #FFFFFF;
     margin-bottom: 5px;
 }
 
 .main-block {
-    min-height: 550px;
+    min-height: 590px;
 }
 
 .main-block .container {
-    max-width: 1200px;
+    max-width: 1040px;
 }
 
-.cta {
-    position: relative;
-    max-width: 624px;
+.kv {
+    max-width: 1010px;
     width: 100%;
-    margin: 74px auto 0;
-}
-
-.steps {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin: auto;
-}
-
-.step {
-    width: 100%;
-}
-
-.step1 {
-    margin-top: 10px;
-    max-width: 420px;
-}
-
-.step2 {
-    margin-top: 5px;
-    max-width: 372px;
-}
-
-.step3 {
-    max-width: 450px;
+    height: 590px;
+    margin: 54px auto 0;
+    background: url(../img/kv.png) center no-repeat;
+    background-size: contain;
 }
 
 .main-block .btn-wrapper {
@@ -703,9 +658,9 @@ header {
 
 .main-block .btn {
 	position: absolute;
-    top: -30px;
+    top: 342px;
     left: 0;
-    right: 0;
+    right: -730px;
 }
 
 .btn {
@@ -787,7 +742,7 @@ header {
 }
 
 .prizes-block {
-    min-height: 865px;
+    min-height: 740px;
     margin-top: 100px;
 }
 
@@ -818,29 +773,20 @@ header {
     position: relative;
     display: flex;
     justify-content: space-between;
-}
-
-.prize-line:nth-child(1) {
-    margin-bottom: 20px;
-    justify-content: center;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .prize-line:nth-child(2) {
-    max-width: 756px;
+    max-width: 500px;
     width: 100%;
     margin: auto;
 }
 
-.prize-line:nth-child(3) {
-    justify-content: center;
-}
-
-/*.prize-line:nth-child(1) .prize {
-    margin: 0 10px;
-}*/
-
 .prize {
     position: relative;
+    margin: 0 auto;
 }
 
 .prize-img {
@@ -850,10 +796,12 @@ header {
     align-items: center;
     justify-content: flex-end;
     height: 165px;
+    margin-bottom: 15px;
 }
 
-.prize-img img {
-    height: 100%;
+.prize3 .prize-img {
+    height: 190px;
+    margin-bottom: 0;
 }
 
 .prize-date {
@@ -863,32 +811,6 @@ header {
     text-align: center;
     letter-spacing: 1px;
     color: #fff;
-}
-
-.garant-prize .prize-img img {
-    position: absolute;
-    top: 0;
-    max-height: 200px;
-}
-
-.prize1 .prize-img img {
-    max-height: 147px;
-}
-
-.prize2 .prize-img img {
-    max-height: 160px;
-}
-
-.prize3 .prize-img img {
-    max-height: 165px;
-}
-
-.prize4 .prize-img img {
-    max-height: 145px;
-}
-
-.main-prize .prize-img img {
-    max-height: 169px;
 }
 
 .prize-text {
@@ -902,11 +824,12 @@ header {
 
 .weekly-title {
     position: absolute;
-    top: -20px;
+    top: 0;
     left: 0;
     right: 0;
     width: 199px;
     margin: auto;
+    text-align: center;
 }
 
 .prizes-text {
@@ -918,24 +841,22 @@ header {
 }
 
 .product-block {
-    min-height: 420px;
-    margin-top: 60px;
+    min-height: 520px;
+    margin-top: 40px;
 }
 
 .products-text {
     position: relative;
-    max-width: 641px;
-    width: 100%;
     text-align: center;
     margin: 18px auto 30px;
 }
 
 .products-text img {
-    width: 100%;
     position: absolute;
     left: 0;
     right: 0;
     margin: auto;
+    width: 671px;
 }
 
 .products {
@@ -943,7 +864,7 @@ header {
     justify-content: space-between;*/
     max-width: 1000px;
     width: 100%;
-    margin: 0 auto 50px;
+    margin: 0 auto 30px;
 }
 
 .product {
@@ -952,6 +873,9 @@ header {
 }
 
 .product-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     max-width: 250px;
     width: 100%;
     height: 240px;
@@ -999,12 +923,13 @@ header {
 
 .winners-block {
     min-height: 265px;
-    margin-top: 124px;
+    margin-top: 45px;
+    color: #fff;
 }
 
 .full .winners-block {
-    margin-top: 80px;
-    min-height: 500px;
+    margin-top: 20px;
+    min-height: 740px;
 }
 
 .winners-announce {
@@ -1013,8 +938,7 @@ header {
     line-height: 44px;
     text-align: center;
     letter-spacing: 1px;
-    color: #DD181F;
-    text-shadow: 4px 0px 0px #fff;
+    color: #FEE000;
     margin-top: 48px;
 }
 
@@ -1030,7 +954,7 @@ header {
 }
 
 .full .feedback-block {
-    margin-top: 140px;
+    margin-top: 45px;
 }
 
 .feedback-text {
@@ -1169,8 +1093,16 @@ footer {
     display: flex;
     flex-direction: column;
     flex: 0 0 auto;
-    min-height: 200px;
+    min-height: 260px;
     text-align: center;
+}
+
+.footer-text {
+    max-width: 1310px;
+    width: 100%;
+    margin: 0 auto 20px;
+    font-size: 14px;
+    line-height: 1;
 }
 
 .footer-links {
@@ -1485,32 +1417,34 @@ span.error {
 }
 
 .tuc1 {
-    width: 172px;
-    top: 100px;
-    left: -250px;
+    width: 177px;
+    top: 574px;
+    left: 0;
+    right: -1100px;
+    margin: auto;
 }
 
 .tuc2 {
     width: 169px;
-    top: 628px;
-    left: 0;
-    right: 900px;
+    top: 730px;
+    left: -700px;
+    right: 0;
     margin: auto;
 }
 
 .tuc3 {
     width: 176px;
-    top: 2064px;
-    left: 900px;
-    right: 0;
+    top: 1900px;
+    left: 0;
+    right: -900px;
     margin: auto;
 }
 
 .tuc4 {
     width: 179px;
     top: 2363px;
-    left: 0;
-    right: 990px;
+    left: -900px;
+    right: 0;
     margin: auto;
 }
 
@@ -1521,16 +1455,16 @@ span.error {
 .tuc5 {
     width: 174px;
     top: 790px;
-    left: 700px;
-    right: 0;
+    left: 0;
+    right: -1100px;
     margin: auto;
 }
 
 .tuc6 {
     width: 203px;
-    top: 1260px;
-    left: 0;
-    right: 1000px;
+    top: 1340px;
+    left: -900px;
+    right: 0;
     margin: auto;
 }
 
@@ -1673,8 +1607,12 @@ table td {
 	position: relative;
 }
 
+.winners table td {
+    color: #fff;
+}
+
 .winners {
-	height: 300px;
+	height: 320px;
 	max-width: 810px;
 	margin: auto;
 }
@@ -1683,15 +1621,29 @@ table td {
 	font-size: 16px;
 }
 
-.prize-column img {
-	vertical-align: middle;
+.prize-column-wrapper {
+    display: flex;
+    align-items: center;
 }
 
-.prize-column span {
-	display: inline-block;
+.prize-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+}
+
+.prize-column img {
+	
+}
+
+.prize-column p {
 	max-width: 120px;
-	vertical-align: middle;
 	margin-left: 10px;
+}
+
+.prize-column p span {
+    color: #FFE303;
 }
 
 .check-upload .popup__wrap {
@@ -1717,6 +1669,7 @@ table td {
 
 .lk-block {
 	margin-top: 88px;
+    margin-bottom: 100px;
 }
 
 .profile-wrapper {
@@ -1766,7 +1719,7 @@ table td {
 
 .lk-table {
 	height: 230px;
-    max-width: 770px;
+    max-width: 610px;
     margin: 36px auto 58px;
 }
 
@@ -1774,9 +1727,12 @@ table td {
     padding-right: 20px;
 }
 
-.lk-table table td:nth-child(1),
-.lk-table table td:nth-child(2) {
+.lk-table table td:nth-child(1) {
 	width: 130px;
+}
+
+.lk-table table td:nth-child(2) {
+    width: 80px;
 }
 
 .check-preview {
@@ -1788,22 +1744,60 @@ table td {
 }
 
 .check-status {
-	width: 150px;
+	width: 100px;
 }
 
 .win-prize-column {
-	width: 135px;
+	width: 160px;
 }
 
 .get-prize {
     display: flex;
-    -ms-align-items: center;
-    align-items: center;
+    -ms-align-items: flex-start;
+    align-items: flex-start;
 }
 
-.win-prize-column img {
-	max-width: 30px;
-	vertical-align: middle;
+.get-prize-icon {
+    position: relative;
+    width: 60px;
+    height: 50px;
+}
+
+.get-prize-icon::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: #fff;
+    z-index: 0;
+}
+
+.get-prize-icon img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    transform: scale(.9);
+    image-rendering: optimizequality;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+.get-prize-info {
+    margin-left: 8px;
+}
+
+.get-prize-text {
+    font-size: 16px;
+    line-height: 18px;
+    color: #004F91;
 }
 
 .win-prize-column a {
@@ -1811,7 +1805,6 @@ table td {
 	display: inline-block;
 	max-width: 100px;
 	vertical-align: middle;
-	margin-left: 10px;
 	color: #27C2EE;
 }
 
@@ -1825,6 +1818,7 @@ table td {
 
 .faq-block {
 	margin-top: 112px;
+    margin-bottom: 100px;
 }
 
 .faq-bg {
@@ -1962,7 +1956,7 @@ table td {
 }
 
 .cookies-block p {
-    font-size: 21px;
+    font-size: 19px;
     line-height: 152%;
     margin: 20px 0;
 }
@@ -1975,7 +1969,7 @@ table td {
 }
 
 .cookie-text-ul {
-    font-size: 21px;
+    font-size: 19px;
     line-height: 152%;
     padding-left: 50px;
     list-style: square;
@@ -2037,9 +2031,9 @@ table td {
     }
 
     .magnit-action {
-        right: 15px;
+        right: 10px;
         width: 110px;
-        height: 152px;
+        height: 102px;
     }
 
     .magnit-action-title {
@@ -2062,52 +2056,44 @@ table td {
         margin: 0 11px;
     }
 
-    .cta {
-        max-width: 600px;
-    }
-
-    .tuc2 {
-        right: 800px;
+    .tuc1 {
+        right: -800px;
     }
 
     .tuc3 {
-        left: 800px;
+        right: -800px;
     }
 
-    .tuc4 {
-        right: 850px;
-    }
-
-    .full .tuc4 {
-	    top: 2700px;
+    .tuc5 {
+        right: -800px;
     }
 }
 
 @media (max-width: 1000px) {
     .wrapper {
     	min-height: 812px;
-        background: url(../img/inner-bg-mob.png) center no-repeat;
+        background: url(../img/inner-bg-mob.png) center 0 no-repeat;
         background-size: cover;
     }
 
     .main-page {
-        min-height: 3508px;
-        background: url(../img/bg-mob.png) center no-repeat;
+        min-height: 3828px;
+        background: url(../img/bg-mob.jpg) center 0 no-repeat;
         /*background-size: cover;*/
-        background-size: 100% 3508px;
+        background-size: 100% 3828px;
     }
 
     .main-page.full {
-        min-height: 3970px;
-        background: url(../img/bg1-mob.png) center no-repeat;
+        min-height: 4463px;
+        background: url(../img/bg1-mob.jpg) center 0 no-repeat;
         /*background-size: cover;*/
-        background-size: 100% 3970px;
+        background-size: 100% 4463px;
     }
 
     .lk-page {
     	min-height: 1153px;
-    	background: url(../img/lk-bg-mob.png) center no-repeat;
-        background-size: cover;
+    	background: url(../img/lk-bg-mob.jpg) center 0 no-repeat;
+        background-size: 100% 100%;
     }
 
     .faq-page {
@@ -2117,8 +2103,8 @@ table td {
     }
 
     .cookies-page {
-		min-height: 3542px;
-	    background: url(../img/cookies-bg-mob.png) center no-repeat;
+		min-height: 4000px;
+	    background: url(../img/cookies-bg-mob.png) center -200px no-repeat;
 	    background-size: cover;
 	}
 
@@ -2132,8 +2118,8 @@ table td {
 
     .main-page .logo {
     	display: block;
-        top: 60px;
-        left: 0;
+        top: 20px;
+        left: -60px;
         right: 0;
         margin: auto;
     }
@@ -2262,6 +2248,11 @@ table td {
 	    background-size: contain;
     }
 
+    .magnit-action {
+        width: 90px;
+        height: 83px;
+    }
+
     .tooltip {
         top: 240px;
         height: 226px;
@@ -2270,45 +2261,26 @@ table td {
     }
 
     .main-block {
-        min-height: 840px;
+        min-height: 940px;
     }
 
-    .cta {
-        max-width: 325px;
-        margin: 160px auto 8px;
+    .main-block .container {
+        max-width: 100%;
+        padding: 0;
     }
 
-    .main-block .btn-wrapper {
-        position: absolute;
-        top: 310px;
-        left: 0;
-        right: 0;
-        margin: auto;
+    .kv {
+        max-width: 100%;
+        height: 940px;
+        margin: 130px auto 0;
+        background: url(../img/kv-mob.png) center 0 no-repeat;
+        background-size: 364px;
     }
 
     .main-block .btn {
-    	position: relative;
-    	top: auto;
-    }
-
-    .steps {
-        max-width: 345px;
-        flex-direction: column;
-        margin-top: 100px;
-    }
-
-    .step {
-        margin: 0;
-    }
-
-    .step2 {
-        position: relative;
-        height: 153px;
-    }
-
-    .step2 img {
-        position: absolute;
-        left: -20px;
+    	top: 534px;
+        left: 0;
+        right: 0;
     }
 
     .prizes-block {
@@ -2320,22 +2292,13 @@ table td {
         font-size: 44px;
     }
 
-    .weekly-title {
-        top: 0;
+    .weekly-title img {
+        margin: auto;
     }
 
     .prize {
         width: 300px;
         outline: none;
-    }
-
-    .prize-img {
-        margin-top: 40px;
-    }
-
-    .garant-prize .prize-img,
-    .main-prize .prize-img {
-        margin-top: 0;
     }
 
     .prize-text img {
@@ -2371,12 +2334,17 @@ table td {
 
     .mndlz-logo {
         margin-bottom: 20px;
-        order: -1;
+        order: 0;
+    }
+
+    .footer-text {
+        max-width: 310px;
     }
 
     .footer-links {
         flex-direction: column;
         margin-bottom: 14px;
+        order: 1;
     }
 
     .footer-links a {
@@ -2386,38 +2354,24 @@ table td {
 
     .copyright {
         width: 280px;
-        margin: auto;
-    }
-
-    .tuc2,
-    .tuc5,
-    .tuc6 {
-        display: none;
-    }
-
-    .tuc1 {
-        width: 90px;
-        top: -70px;
-        left: 0;
+        margin: 0 auto 40px;
+        order: 2;
     }
 
     .tuc3 {
         width: 155px;
-        top: 950px;
-        left: auto;
-        right: 0;
-    }
-
-    .tuc4,
-    .full .tuc4 {
-        width: 154px;
-        top: 2150px;
-        left: -50px;
+        top: 2205px;
+        left: -70px;
         right: auto;
     }
 
+    .winners-block {
+        margin-top: 120px;
+    }
+
     .full .winners-block {
-        margin-top: 110px;
+        margin-top: 130px;
+        min-height: 965px;
     }
 
     .week-winners {
@@ -2440,25 +2394,39 @@ table td {
         padding-right: 10px;
     }
 
+    .winners .scroll-element .scroll-element_track,
+    .winners .scroll-element .scroll-bar {
+        background: #fff;
+    }
+
     td {
         line-height: 1.2;
     }
 
     .winners {
     	max-width: 300px;
-        height: 500px;
+        height: 580px;
+    }
+
+    .winners table td {
+        font-size: 20px;
     }
 
     .winners .prize-column {
-        width: 100px;
+        width: 130px;
     }
 
-    .winners .prize-column img {
-        display: block;
-        margin-bottom: 10px;
+    .prize-column-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
     }
 
-    .winners .prize-column span {
+    .prize-icon {
+        width: auto;
+    }
+
+    .winners .prize-column p {
+        font-size: 16px;
         margin-left: 0;
     }
 
@@ -2510,6 +2478,10 @@ table td {
 	    background-size: contain;
     }
 
+    .lk-table {
+        height: 340px;
+    }
+
     .lk-table th.mobile-visible {
     	padding-left: 15px;
     }
@@ -2519,9 +2491,9 @@ table td {
     }
 
     .check-column {
-    	display: flex;
-        flex-direction: column;
+    	display: table-cell;
 	    font-size: 16px;
+        width: 110px;
     }
 
     .check-preview {
@@ -2529,32 +2501,20 @@ table td {
     }
 
     .win-prize-column {
-    	width: 110px;
+    	width: 190px;
     }
 
     .win-prize-column a {
     	font-size: 16px;
-    	max-width: 66px;
-    	margin-left: 0;
     }
 
-    .get-prize {
-        display: flex;
-        flex-direction: column;
-        -ms-align-items: flex-start;
-        align-items: flex-start;
-    }
-
-    .get-prize-icon {
-        display: flex;
-        -ms-align-items: center;
-        align-items: center;
-        height: 50px;
-        margin-bottom: 10px;
+    .table-icon {
+        margin-left: 10px;
     }
 
     .faq-block {
     	margin-top: 60px;
+        margin-bottom: 20px;
     }
 
     .faq-bg {
@@ -2619,6 +2579,7 @@ table td {
 
 	.cookies-block {
 		margin-top: 60px;
+        margin-bottom: 80px;
 	}
 
 	.cookies-block .title {
@@ -2626,11 +2587,11 @@ table td {
 	}
 
 	.cookies-block p {
-		font-size: 18px;
+		font-size: 16px;
 	}
 
 	.cookie-text-ul {
-		font-size: 18px;
+		font-size: 16px;
 		padding-left: 20px;
 	}
 }
@@ -2657,8 +2618,4 @@ table td {
 	.cookie-text-ul li {
 	    margin: 15px 0;
 	}
-
-    .win-prize-column {
-        width: 100px;
-    }
 }
