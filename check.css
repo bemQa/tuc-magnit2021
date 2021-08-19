@@ -1,69 +1,69 @@
 @font-face {
     font-family: 'Peach Milk 2.0';
-    src: url('https://tuc.promo/fonts/PeachMilk20.eot');
-    src: url('https://tuc.promo/fonts/PeachMilk20.eot?#iefix') format('embedded-opentype'),
-        url('https://tuc.promo/fonts/PeachMilk20.woff2') format('woff2'),
-        url('https://tuc.promo/fonts/PeachMilk20.woff') format('woff');
+    src: url('https://tuc.fun/fonts/PeachMilk20.eot');
+    src: url('https://tuc.fun/fonts/PeachMilk20.eot?#iefix') format('embedded-opentype'),
+        url('https://tuc.fun/fonts/PeachMilk20.woff2') format('woff2'),
+        url('https://tuc.fun/fonts/PeachMilk20.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'PF Din Text Cond Pro';
-    src: url('https://tuc.promo/fonts/PFDinTextCondPro-Bold.eot');
-    src: url('https://tuc.promo/fonts/PFDinTextCondPro-Bold.eot?#iefix') format('embedded-opentype'),
-        url('https://tuc.promo/fonts/PFDinTextCondPro-Bold.woff2') format('woff2'),
-        url('https://tuc.promo/fonts/PFDinTextCondPro-Bold.woff') format('woff');
+    src: url('https://tuc.fun/fonts/PFDinTextCondPro-Bold.eot');
+    src: url('https://tuc.fun/fonts/PFDinTextCondPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://tuc.fun/fonts/PFDinTextCondPro-Bold.woff2') format('woff2'),
+        url('https://tuc.fun/fonts/PFDinTextCondPro-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'PF Din Text Cond Pro';
-    src: url('https://tuc.promo/fonts/PFDinTextCondPro-BoldItalic.eot');
-    src: url('https://tuc.promo/fonts/PFDinTextCondPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('https://tuc.promo/fonts/PFDinTextCondPro-BoldItalic.woff2') format('woff2'),
-        url('https://tuc.promo/fonts/PFDinTextCondPro-BoldItalic.woff') format('woff');
+    src: url('https://tuc.fun/fonts/PFDinTextCondPro-BoldItalic.eot');
+    src: url('https://tuc.fun/fonts/PFDinTextCondPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://tuc.fun/fonts/PFDinTextCondPro-BoldItalic.woff2') format('woff2'),
+        url('https://tuc.fun/fonts/PFDinTextCondPro-BoldItalic.woff') format('woff');
     font-weight: bold;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'PF Din Text Cond Pro';
-    src: url('https://tuc.promo/fonts/PFDinTextCondPro-Light.eot');
-    src: url('https://tuc.promo/fonts/PFDinTextCondPro-Light.eot?#iefix') format('embedded-opentype'),
-        url('https://tuc.promo/fonts/PFDinTextCondPro-Light.woff2') format('woff2'),
-        url('https://tuc.promo/fonts/PFDinTextCondPro-Light.woff') format('woff');
+    src: url('https://tuc.fun/fonts/PFDinTextCondPro-Light.eot');
+    src: url('https://tuc.fun/fonts/PFDinTextCondPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('https://tuc.fun/fonts/PFDinTextCondPro-Light.woff2') format('woff2'),
+        url('https://tuc.fun/fonts/PFDinTextCondPro-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'PF Din Text Cond Pro';
-    src: url('https://tuc.promo/fonts/PFDinTextCondPro-Regular.eot');
-    src: url('https://tuc.promo/fonts/PFDinTextCondPro-Regular.eot?#iefix') format('embedded-opentype'),
-        url('https://tuc.promo/fonts/PFDinTextCondPro-Regular.woff2') format('woff2'),
-        url('https://tuc.promo/fonts/PFDinTextCondPro-Regular.woff') format('woff');
+    src: url('https://tuc.fun/fonts/PFDinTextCondPro-Regular.eot');
+    src: url('https://tuc.fun/fonts/PFDinTextCondPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('https://tuc.fun/fonts/PFDinTextCondPro-Regular.woff2') format('woff2'),
+        url('https://tuc.fun/fonts/PFDinTextCondPro-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'PF Din Text Cond Pro';
-    src: url('https://tuc.promo/fonts/PFDinTextCondPro-Italic.eot');
-    src: url('https://tuc.promo/fonts/PFDinTextCondPro-Italic.eot?#iefix') format('embedded-opentype'),
-        url('https://tuc.promo/fonts/PFDinTextCondPro-Italic.woff2') format('woff2'),
-        url('https://tuc.promo/fonts/PFDinTextCondPro-Italic.woff') format('woff');
+    src: url('https://tuc.fun/fonts/PFDinTextCondPro-Italic.eot');
+    src: url('https://tuc.fun/fonts/PFDinTextCondPro-Italic.eot?#iefix') format('embedded-opentype'),
+        url('https://tuc.fun/fonts/PFDinTextCondPro-Italic.woff2') format('woff2'),
+        url('https://tuc.fun/fonts/PFDinTextCondPro-Italic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'PF Din Text Cond Pro';
-    src: url('https://tuc.promo/fonts/PFDinTextCondPro-Medium.eot');
-    src: url('https://tuc.promo/fonts/PFDinTextCondPro-Medium.eot?#iefix') format('embedded-opentype'),
-        url('https://tuc.promo/fonts/PFDinTextCondPro-Medium.woff2') format('woff2'),
-        url('https://tuc.promo/fonts/PFDinTextCondPro-Medium.woff') format('woff');
+    src: url('https://tuc.fun/fonts/PFDinTextCondPro-Medium.eot');
+    src: url('https://tuc.fun/fonts/PFDinTextCondPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('https://tuc.fun/fonts/PFDinTextCondPro-Medium.woff2') format('woff2'),
+        url('https://tuc.fun/fonts/PFDinTextCondPro-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
 }
@@ -1195,4 +1195,117 @@ body {
 
 .bootstrap-datetimepicker-widget.dropdown-menu {
     width: 17em;
+}
+
+.angular-uf-container.angular-uf-message p {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #004F91;
+    margin-bottom: 20px;
+}
+
+zxing-scanner {
+    border-color: transparent !important;
+    border: 0;
+    width: 240px !important;
+    height: 240px !important;
+    margin: 20px auto !important;
+    border-radius: 0;
+    overflow: hidden;
+}
+
+app-root button {
+    display: flex;
+    -ms-align-items: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 230px;
+    height: 47px;
+    font-family: 'Peach Milk 2.0';
+    font-size: 22px;
+    line-height: 1;
+    letter-spacing: 1px;
+    margin: auto;
+    padding: 16px 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background: #27C2EE;
+    box-shadow: 4px 4px 0px #004F91;
+    transition: all .3s linear;
+    overflow: hidden;
+    opacity: 1;
+    z-index: 0;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+app-root button:hover {
+    box-shadow: none;
+}
+
+dropzone {
+    max-width: 240px;
+    min-height: 240px;
+    background: transparent;
+    border: 1px solid #004F91;
+    border-radius: 0;
+    margin: 0 auto 25px;
+}
+
+app-root dropzone>.dropzone.dz-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    line-height: 18px;
+    color: #004F91;
+    padding: 10px;
+}
+
+app-root dropzone>.dropzone.dz-wrapper .dz-message {
+    border: none;
+    background: none;
+    margin: 3rem 0;
+}
+
+app-root dropzone>.dropzone.dz-wrapper.dz-started .dz-message {
+    order: 1;
+    margin: 20px 0;
+}
+
+.angular-uf-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+app-root select {
+    width: 180px;
+    height: 32px;
+    margin: 0 auto 20px;
+    padding: 0 20px 0 10px;
+    border: 1px solid #004F91;
+    background: #FFE303;
+    border-radius: 0;
+}
+
+app-root .dropzone .dz-preview.dz-image-preview {
+    width: 200px;
+    height: 200px;
+}
+
+app-root .dropzone .dz-preview .dz-image {
+    width: 240px;
+    height: 240px;
+}
+
+.angular-uf-no-device-message,
+.angular-uf-device-check-err-message,
+.angular-uf-restrict-message {
+    text-align: center;
 }
