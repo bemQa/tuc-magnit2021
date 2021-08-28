@@ -967,9 +967,8 @@ body {
     font-weight: normal;
     font-style: normal;
     background-color: #FFE303;
-    /*overflow-x: hidden;
-    overflow-y: scroll;*/
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
     box-sizing: content-box;
     height: 100%;
